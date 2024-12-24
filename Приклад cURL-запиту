@@ -1,0 +1,17 @@
+URL  API.
+https://taskk-6.onrender.com
+
+Приклад тестового запиту:
+
+Отримати всі елементи:
+curl -X GET 'https://your-app.onrender.com/items'
+
+Додати новий елемент:
+curl -X POST 'https://your-app.onrender.com/items' \
+-H 'Content-Type: application/json' \
+-d '{
+    "name": "New Item"
+}'
+
+Видалити елемент:
+curl -X DELETE 'https://your-app.onrender.com/items/1'
